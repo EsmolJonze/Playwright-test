@@ -1,0 +1,26 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "cucumber-js --require cucumber.conf.js --require features/steps/**/*.js --format @cucumber/pretty-formatter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsmolJonze/Playwright-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EsmolJonze/Playwright-test/issues"
+  },
+  "homepage": "https://github.com/EsmolJonze/Playwright-test#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.25.1",
+    "playwright": "^1.25.1"
+  }
+}
+
